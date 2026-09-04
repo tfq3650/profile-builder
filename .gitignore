@@ -1,0 +1,60 @@
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.fleet/
+*.iml
+.project
+.classpath
+.settings/
+
+# ===== Node =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# ===== 密钥 / 本地凭证（绝不能提交） =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+gh-token.txt
+*token*.txt
+*credential*
+
+# ===== 临时 / 备份 =====
+*.bak
+*.tmp
+*.log
+*.orig
+*.rej
+.cache/
+tmp/
+temp/
+
+# ===== WorkBuddy 内部产物 =====
+.workbuddy/cache/
+.workbuddy/temp/
+.workbuddy/sessions/
